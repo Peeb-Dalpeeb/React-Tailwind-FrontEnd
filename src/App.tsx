@@ -15,7 +15,7 @@ function App() {
           </p>
           <div className="mb-4">
             <button
-              onClick={() => setCount(count => count + 1)}
+              onClick={() => setCount(prevCount => prevCount + 1)}
               className="rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white transition-all hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-300"
             >
               Count is {count}
