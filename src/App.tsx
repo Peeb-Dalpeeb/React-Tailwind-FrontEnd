@@ -22,7 +22,9 @@ function App() {
             </button>
           </div>
           <p className="text-sm text-gray-500">
-            Edit <code className="rounded bg-gray-100 px-2 py-1">src/App.tsx</code> and save to test HMR
+            Edit{' '}
+            <code className="rounded bg-gray-100 px-2 py-1">src/App.tsx</code>{' '}
+            and save to test HMR
           </p>
         </div>
       </div>
